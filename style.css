@@ -8,6 +8,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
 ul {
@@ -27,9 +28,67 @@ a {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 48px;
+}
+
+.Hmain {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    max-width: 350px;
+    max-height: 100px;  
+    display: flex;
+}
+
+.Hsec {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 450px;
+    max-height: 150px;
+    display: flex;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 8px;
+    width: 120px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #e5e7eb;
+    border-radius: 12px;
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    background-color: #eeeeee;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-content: center;
+    margin-top: 8px;
+    margin-right: 200px;
+
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 250px;
+    margin-left: 250px;
+    gap: 16px;
+    max-height: 300px;
 }
