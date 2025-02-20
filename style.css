@@ -3,7 +3,6 @@
     height: 350px;
     width: 1910px;
     padding-top: 16px;
-    border: 8px solid black;
 }
 
 .quarter2 {
@@ -11,7 +10,18 @@
     height: 350px;
     width: 1910px;
     padding-top: 16px;
-    border: 8px solid black;
+}
+
+.quarter3 {
+    background-color: #e5e7eb;
+    height: 350px;
+    width: 1910px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 body {
@@ -131,4 +141,17 @@ button {
 .description {
     max-width: 150px;
     text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 800px;
+}
+
+.quoter {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 450px;
 }
