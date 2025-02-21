@@ -24,6 +24,17 @@
     flex-wrap: wrap;
 }
 
+.quarter4 {
+    background-color: white;
+    height: 350px;
+    width: 1910px;
+    padding-top: 16px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -154,4 +165,34 @@ button {
     font-size: 24px;
     font-weight: 700;
     margin-left: 450px;
+}
+
+.container {
+    width: 1000px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.phrase {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.phrase1 {
+    font-size: 16px;
+    color: #f9faf8;
+}
+
+.buttonQ4 {
+    color: #f9faf8;
+    width: 120px;
+    height: 36px;
+    border-radius: 12px;
+    border-color: #f9faf8;
+    border: 2px solid;
 }
