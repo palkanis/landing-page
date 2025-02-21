@@ -140,6 +140,8 @@ button {
     border-radius: 12px;
     display: flex;
     margin-bottom: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
