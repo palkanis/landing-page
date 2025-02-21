@@ -196,3 +196,14 @@ button {
     border-color: #f9faf8;
     border: 2px solid;
 }
+
+.footer {
+    width: 1910px;
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 18px;
+}
